@@ -139,6 +139,8 @@ In this section, you will create a test VM on the  VNet to test if you can acces
     | Allow 'CoreServicesVnet' to receive forwarded traffic from 'ManufacturingVnet' | Enabled |
 
 1. Check the box to the left of **CoreServicesVnet-to-ManufacturingVnet** and select **Sync**
+
+   >**Note**: If the **Peering sync status** is *Fully Synchronized*, the **Sync** button will be unavailable. Proceed to the next step.
  
 1. In CoreServicesVnet \| Peerings, verify that the **CoreServicesVnet-to-ManufacturingVnet** peering is **Connected**.
 
